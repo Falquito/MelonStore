@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melon Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo">
+        <img src="images/melon_store.jpg" alt="Icono de Melon Store" class="logo-icon">
+        Melon Store
+      </a>
+
+      <input type="checkbox" id="menu" />
+      <label for="menu">
+        <span class="material-symbols-outlined">
+menu
+</span>
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <ul>
+          <li class="submenu">
+            <span class="material-symbols-outlined">
+      shopping_cart
+</span>
+            <div id="carrito">
+              <table id="lista-carrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header-contenedor container">
+      <div class="header-img">
+        <img src="images/right.jpg" alt="Promoción principal de Melon Store">
+      </div>
+      <div class="header-text">
+        <h1>Ofertas Especiales</h1>
+        <p>Nuestros Mejores Productos</p>
+        <a href="#" class="btn-2">Información</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="productos container">
+    
+  </section>
+
+  <script type="module" src="scrip.js"></script>
+</body>
+</html>
